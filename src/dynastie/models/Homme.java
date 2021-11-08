@@ -4,6 +4,7 @@ public class Homme extends Personnage {
 
 	private Femme epouse;
 
+	
 	public Homme(String nom, String surnom) {
 		super(nom, surnom);
 	}
@@ -14,6 +15,7 @@ public class Homme extends Personnage {
 	 * 
 	 * @param femme Une instance de Femme comme epouse
 	 */
+	
 	public void epouser(Femme femme) {
 		this.epouse = femme;
 		femme.setDynastie(dynastie);

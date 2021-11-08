@@ -14,12 +14,14 @@ public class Personnage {
 	private int naissance;
 	private int deces;
 
+	
 	public Personnage(String nom, String surnom) {
 		this.nom = nom;
 		this.surnom = surnom;
 		this.enfants = new ArrayList<Personnage>();
 	}
 
+	
 	public void naitre(int annee) {
 		this.naissance = annee;
 	}

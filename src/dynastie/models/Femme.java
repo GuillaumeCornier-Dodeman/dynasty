@@ -7,6 +7,9 @@ public class Femme extends Personnage {
 		super(nom, surnom);
 	}
 
+	
+	
+
 	/**
 	 * Donne naissance à un enfant, à une certaine date. L'enfant fait partie des
 	 * enfants de ses 2 parents et est intégré à la dynastie
